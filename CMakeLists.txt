@@ -1,4 +1,4 @@
-# judge which cmake codes to use 
+set(ROS_EDITION "ROS1" CACHE STRING "ROS edition: ROS1 or ROS2")
 if(ROS_EDITION STREQUAL "ROS1")
 
   # Copyright(c) 2019 livoxtech limited.
